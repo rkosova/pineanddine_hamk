@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Playfair+Display&display=swap');
+
+
+body {
+	background-image: url("../images/background.jpg");
+	background-size: 100%;
+}
+
+#overlay {
+	background-color: rgba(31, 27, 27, .7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+.box {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar {
+	margin-top: 8%;
+	margin-bottom: 7%;
+	width: 55%;
+}
+
+.nav-element a{
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	color: white;
+	letter-spacing: 0.05em;
+	text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  	text-underline-offset: 0.2em;
+  	transition: text-decoration-color 150ms, text-underline-offset 200ms;
+}
+
+.nav-element a:hover {
+	text-decoration-color: rgba(255, 255, 255, 1);
+  	text-underline-offset: 0.4em;
+}
+
+.name-head {
+	text-align: center;
+	width: 100%;
+}
+
+.name-head h1 {
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 12vw;
+	letter-spacing: 0.15em;
+	color:  #DD9152;
+}
+
+
+.subtitle {
+	margin-top: 3%;
+}
+
+.subtitle p{
+	font-family: "Playfair Display", serif;
+	font-size: 38px;
+	color: white;
+	letter-spacing: 0.1em;
+}
+
