@@ -110,23 +110,23 @@ background: #FFF3E9;
 .maintitle {
   /* Today’s MENU */
 
-position: absolute;
-width: 385px;
-height: 140px;
-left: 913px;
-top: 178px;
+  position: absolute;
+  width: 385px;
+  height: 140px;
+  left: 913px;
+  top: 178px;
 
-font-family: WindSong;
-font-style: normal;
-font-weight: normal;
-font-size: 96px;
-line-height: 135px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.045em;
+  font-family: WindSong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3vw;
+  line-height: 135px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.045em;
 
-color: #000000;
+  color: #000000;
 }
 
 .underline {
