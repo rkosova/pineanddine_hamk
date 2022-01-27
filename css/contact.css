@@ -27,7 +27,7 @@ body {
 .navbar a{
 	font-family: 'Playfair Display', serif;
 	font-size: 24px;
-	color: white;
+	color: black;
 	letter-spacing: 0.05em;
 	text-decoration: underline 0.15em rgba(0, 0, 0, 0);
   	text-underline-offset: 0.2em;
@@ -80,6 +80,11 @@ input {
 	background-color: rgb(164, 153, 141); 
 	padding-left: 5px;
     padding-top: 5px;
+}
+
+
+#rightside {
+    margin-top: 12%;
 }
 
 .row {
