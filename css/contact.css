@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Playfair+Display&display=swap');
+
+* {
+	margin: 0;
+}
+
+body {
+	background-color: #FFF3E9;
+    background-size: 100%;
+}
+
+.head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img{
+	width: 100px;
+	height: 100px;
+}
+
+.navbar {
+	flex-basis: 50%;
+}
+
+.navbar a{
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	color: white;
+	letter-spacing: 0.05em;
+	text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  	text-underline-offset: 0.2em;
+  	transition: text-decoration-color 150ms, text-underline-offset 200ms;
+  	margin-left: 5%;
+}
+
+.navbar a:hover {
+	text-decoration-color: black;
+  	text-underline-offset: 0.4em;
+}
+
+.header-one {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.header-one h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 80px;
+    color: black;
+}
+
+.header-two {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.header-two h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-two p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+    word-spacing: 1px;
+}
+
+input {
+    font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-width: 1px;
+	background-color: rgb(164, 153, 141); 
+	padding-left: 5px;
+    padding-top: 5px;
+}
+
+.row {
+    margin: auto;
+    padding: 10px;
+    width: 1200px;
+}
+
+.full {
+    width: 90%;
+    height: 50px;
+}
+
+.half {
+    width: 44.5%;
+    height: 50px;
+}
+
+.firstrow {
+    display: flex;
+}
+
+#name {
+    margin-bottom: 5px;
+}
+
+#email {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.secondrow {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.thirdrow {
+    display: flex;
+    height: 75px;
+    margin-bottom: 5px;
+    padding-bottom: 50px;
+}
+
+#msg {
+    height: 100px;
+    font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-width: 1px;
+	background-color: rgb(164, 153, 141); 
+	padding-left: 5px;
+    padding-top: 5px;
+}
+
+.fourthrow {
+    display: flex;
+    margin-left: 135px;
+    margin-top: 30px;
+}
+
+button {
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.05em;
+	background-color: #353246;
+	color:  white;
+	padding:  1%;
+}
+
+.fb {
+    margin-bottom: 8px;
+}
