@@ -9,18 +9,7 @@
 </head>
 
 <body>
-    <div class="head">
-        <div class="logo">
-                    <a href=""><img src="./images/pinelogo_white.png"></a>
-                </div>
-                <div class="navbar">
-                    <a href="home.html">home page</a>
-                    <a href="menu.html">menu</a>
-                    <a href="reservetable.html">reserve table</a>
-                    <a href="aboutus.html">about us</a>
-                    <a href="Contact.html">contact</a>
-                </div>
-    </div>
+    <?php include("./header_footer/header.php")?>
 
     <div class="header-one">
         <h1>Contact us!</h1>
@@ -71,6 +60,8 @@
                 </div>
         </div>
     </div>
+
+    <?php include("./header_footer/footer.php>
 
 </body>
 

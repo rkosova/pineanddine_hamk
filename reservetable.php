@@ -7,18 +7,8 @@
 	<title>Reserve a Table</title>
 </head>
 <body>
-	<div class="head">
-		<div class="logo">
-			<a href="home.html"><img src="./images/pinelogo.png"></a>
-		</div>
-		<div class="navbar">
-			<a href="home.html">home page</a>
-			<a href="menu.html">menu</a>
-			<a href="reservetable.html">reserve table</a>
-			<a href="aboutus.html">about us</a>
-			<a href="Contact.html">contact</a>
-		</div>
-	</div>
+
+    <?php include("./header_footer/header.php")?>
 
 	<div class="body">
 		<div class="contact">
@@ -63,37 +53,8 @@
 			</ul>
 		</div>
 	</div>
+	
+	<?php include("./header_footer/footer.php")?>
 
-	<div class="footer">
-		<div class="footer-text" id="location">
-			<p>LOCATION
-			<br>
-			<br>Finland- Helsinki- 
-			<br> Aleksanterinkatu 12234</p>	
-		</div>
-
-		<div class="footer-text" id="hours">
-			<p>HOURS
-			<br>
-			<br>MONDAY-THURSDAY 
-			<br>17.30-11.30
-			<br>FRIDAY-SATURDAY
-			<br>17.00-01.00</p>	
-		</div>
-
-		<div class="footer-text" id="contact">
-			<p>CONTACT US
-			<br>
-			<br>+3587235482921
-			<br>+3587263273271
-			<br>
-			<br>pineanddine@pdgroup.fi</p>	
-		</div>
-
-		<div class="footer-text" id="socials">
-			<img src="./images/fbwhite.png">
-			<img src="./images/igwhite.png">
-		</div>
-	</div>
 </body>
 </html>
