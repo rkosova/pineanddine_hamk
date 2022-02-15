@@ -61,7 +61,7 @@
         </div>
     </div>
 
-    <?php include("./header_footer/footer.php>
+    <?php include("./header_footer/footer.php") ?>
 
 </body>
 
