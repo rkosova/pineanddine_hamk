@@ -160,3 +160,26 @@ button {
 .fb {
     margin-bottom: 8px;
 }
+
+
+.footer {
+    margin-top: 5%;
+    background-color: #353246;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-text {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+}
+
+#socials img {
+    align-self: end;
+    margin-top: 100%;
+    width: 35px;
+    height: 35px;
+}
