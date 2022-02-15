@@ -1,3 +1,4 @@
+
 <div class="footer">
 	<div class="footer-text" id="location">
 		<p>LOCATION
