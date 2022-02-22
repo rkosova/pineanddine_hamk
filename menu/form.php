@@ -1,5 +1,17 @@
-<?php include 'connection.php';
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Menu</title>
+  </head>
+<?php include 'connection.php';
+      include 'header1.php';
 if(isset($_POST['submit'])){
     $itemname = $_POST['itemname'];
     $ingridients =$_POST['ingridients'];
@@ -18,17 +30,17 @@ if(isset($_POST['submit'])){
 <form method = "post">
 
 <label  class="form-label">Item name</label>
-    <input type="text"  placeholder="Enter item name" name="itemname" >
+    <input type="text"  class="form-control"placeholder="Enter item name" name="itemname" >
     
 <label  class="form-label">Ingridients</label>
-    <input type="text"  placeholder="Ingridients" name="ingridients">
+    <input type="text"  class="form-control"placeholder="Ingridients" name="ingridients">
     
      
 <label  class="form-label">Price</label>
-    <input type="number"  placeholder="Amount" name="price">
+    <input type="number"  class="form-control"placeholder="Amount" name="price">
     
     
-    <button type="submit"  name = "submit">Submit</button>
+    <button type="submit"  class="btn btn-primary"name = "submit">Submit</button>
   
   
   </form>
