@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Playfair+Display&display=swap');
+
+* {
+	margin: 0;
+}
+
+body {
+	background-color: #FFF3E9;
+}
+
+input {
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-width: 1px;
+	background-color: #FFF3E9;
+	padding-right: 5em;
+	margin-top: 5%;
+}
+
+input:focus {
+	outline: none;
+}
+
+button {
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+	background-color: #353246;
+	color:  white;
+	margin-top: 5%;
+	padding:  1%;
+	width:  56vw;
+}
+
+.head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img{
+	width: 100px;
+	height: 100px;
+}
+
+.navbar {
+	flex-basis: 50%;
+}
+
+.navbar a{
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	color: black;
+	letter-spacing: 0.05em;
+	text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  	text-underline-offset: 0.2em;
+  	transition: text-decoration-color 150ms, text-underline-offset 200ms;
+  	margin-left: 5%;
+}
+
+.navbar a:hover {
+	text-decoration-color: black;
+  	text-underline-offset: 0.4em;
+}
+
+.body {
+	display: flex;
+	align-items: center;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	margin-top: 3%;
+	margin-left: 7%;
+}
+
+.firstrow {
+	display: flex;
+	margin-left: 2%;
+}
+
+#lname {
+	margin-left: 5%;
+}
+
+.secondrow {
+	display: flex;
+	margin-left: 2%;
+}
+
+.thirdrow {
+	display: flex;
+	margin-left: 2%;
+}
+
+.fourthrow {
+	display: flex;
+	margin-left: 2%;
+}
+
+#time {
+	margin-left: 5%;
+}
+
+.fifthrow {
+	display: flex;
+	margin-left: 2%;
+}
+
+#children {
+	margin-left: 5%;
+}
+
+.sixthrow {
+	display: flex;
+	margin-left: 2%;
+}
+
+.full {
+	width: 47vw;
+}
+
+.half {
+	width: 20vw;
+}
+
+.morehalf {
+	width: 32vw;
+}
+
+.lesshalf {
+	width: 7vw;
+}
+
+.num {
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	align-self: center;
+	margin-left: 8%;
+}
+
+.footer {
+	margin-top: 5%;
+	background-color: #353246;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer-text {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	color: white;
+	margin-top: 2%;
+	margin-bottom: 1.5%;
+}
+
+#socials img {
+	align-self: end;
+	margin-top: 100%;
+	width: 35px;
+	height: 35px;
+}
