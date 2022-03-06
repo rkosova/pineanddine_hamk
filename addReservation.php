@@ -20,7 +20,7 @@
 					
 				if (mysqli_query($conn, "insert into table_reservation (table_id, customer_fn, customer_ln, phone_number, email, date_of_res, time_of_res, attendants) values ($tid, '$fn', '$ln', '$pn', '$email', '$dateofr', '$timeofr', $att);") === TRUE) {
 						// SQL query 
-		 			 header("Location:tablereservation.php");
+		 			 header("Location:reservetable.php");
 				} else {
 		 			 echo "Error: " . "<br>" . mysqli_error($conn);
 				}

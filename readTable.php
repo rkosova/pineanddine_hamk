@@ -10,8 +10,13 @@
 
 			$q2 = $conn->query("select TE.table_id from table_entity TE where TE.table_id in (select TR.table_id from table_reservation TR)");
 
-			if ($row["table_id"] == mysqli_fetch_object($q2)->table_id) {
-				$is_res = "Yes";
+			$q2_o = mysqli_fetch_object($q2);
+
+			if($q2_o) {
+
+				if ($row["table_id"] == $q2_o->table_id) {
+					$is_res = "Yes";
+				}
 			} else {
 				$is_res = "No";
 			}

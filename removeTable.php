@@ -13,8 +13,8 @@
 		}
 	}
 
-	if(isset($_POST["chairs"])) {
-		removeTable($link, $_POST['chairs']);
+	if(isset($_POST["id"])) {
+		removeTable($link, $_POST['id']);
 	}
 
 

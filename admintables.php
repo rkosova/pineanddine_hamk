@@ -87,10 +87,10 @@
                 form.setAttribute("id", "dynFormC");
                 form.setAttribute("style", "margin-top: 5%;text-align: center;");
 
-                // input element for table chairs 
+                // input element for table id 
                 let ID = document.createElement("input");
                 ID.setAttribute("type", "number");
-                ID.setAttribute("name", "chairs");
+                ID.setAttribute("name", "id");
                 ID.setAttribute("placeholder", "Table ID");
 
 
@@ -121,10 +121,10 @@
                 form.setAttribute("id", "dynFormR");
                 form.setAttribute("style", "margin-top: 5%;text-align: center;");
 
-                // input element for table chairs 
+                // input element for table id 
                 let ID = document.createElement("input");
                 ID.setAttribute("type", "number");
-                ID.setAttribute("name", "chairs");
+                ID.setAttribute("name", "id");
                 ID.setAttribute("placeholder", "Table ID");
 
 
