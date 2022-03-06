@@ -1,6 +1,6 @@
 <div class = "head">
 	<div class="logo">
-		<a href="../home.html"><img src="./images/pinelogo_white.png"></a>
+		<a href="../home.html"><img src="./images/pinelogo.png"></a>
 	</div>
 	<div class="navbar">
 		<a href="home.html">home page</a>

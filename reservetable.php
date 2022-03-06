@@ -8,38 +8,42 @@
 </head>
 <body>
 
-    <?php include("./header_footer/header.php")?>
+    <?php include("./header_footer/header_black.php")?>
 
 	<div class="body">
 		<div class="contact">
-			<div class="firstrow">
-				<input class="half" id="fname" placeholder="first name"></input>
-				<input class="half" id="lname" placeholder="last name"></input>
-			</div>
+			<form action="/addReservation.php" method="post">
+				<div class="firstrow">
+					<input class="half" id="fname" name="fname" placeholder="first name"></input>
+					<input class="half" id="lname" name="lname" placeholder="last name"></input>
+				</div>
 
-			<div class="secondrow">
-				<input class="full" placeholder="email"></input>
-			</div>
+				<div class="secondrow">
+					<input class="full" name="email" placeholder="email"></input>
+				</div>
 			
-			<div class="thirdrow">
-				<input class="full" placeholder="phone number"></input>
-			</div>
+				<div class="thirdrow">
+					<input class="full" name="number" placeholder="phone number"></input>
+				</div>
 
-			<div class="fourthrow">
-				<input class="morehalf" placeholder="reservation date (dd/mm/yyyy)"></input>
-				<input type="time" class="lesshalf" id="time" placeholder="time"></input>
-			</div>
+				<div class="fourthrow">
+					<input class="morehalf" name="date" placeholder="reservation date (dd/mm/yyyy)"></input>
+					<input type="time" name="time" class="lesshalf" id="time" placeholder="time"></input>
+				</div>
 			
-			<div class="fifthrow">
-				<input class="half" placeholder="# of adults"></input>
-				<input class="half" placeholder="# of children"id="children"></input>
-			</div>
+				<div class="fifthrow">
+					<input class="half" name="adults" placeholder="# of adults"></input>
+					<input class="half" name="children" placeholder="# of children"id="children"></input>
+				</div>
+				<div class="sixthrow">
+					<button type="submit">
+						make a reservation
+					</button>
+				</div>
+			</form>
 			
-			<div class="sixthrow">
-				<button>
-					make a reservation
-				</button>
-			</div>
+			
+			
 		</div>
 
 		<div class="num">
