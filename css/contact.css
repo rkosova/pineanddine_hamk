@@ -160,6 +160,10 @@ button {
     margin-left: 200px;
 }
 
+.bottom{
+    align-items: center;
+}
+
 .fb {
     margin-bottom: 8px;
 }
