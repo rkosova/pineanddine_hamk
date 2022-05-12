@@ -41,7 +41,7 @@
             <br>17.00-01.00</p>
 
             <h4>Follow us!</h4>
-            <img class="fb" src="./images/fbwhite.png" height="30px" width="35px">
+            <img class="fb" src="./images/fbwhite.png" height="35px" width="35px">
 			<img src="./images/igwhite.png" height="45px" width="45px">
             
             <h5>Find our location below</h5>

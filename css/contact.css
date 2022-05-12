@@ -84,10 +84,6 @@ input {
 }
 
 
-#rightside {
-    
-}
-
 .row {
     margin: auto;
     padding: 10px;
@@ -161,7 +157,7 @@ button {
 }
 
 .fb {
-
+    margin-bottom: 5px;
 }
 
 
