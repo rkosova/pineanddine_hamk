@@ -161,8 +161,7 @@ button {
 }
 
 .bottom{
-    top: 50%;
-    left: 50%;
+    margin-left: 50%;
 }
 
 .fb {
