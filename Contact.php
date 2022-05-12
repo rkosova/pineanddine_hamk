@@ -16,7 +16,7 @@
     </div>
 
     <div class="header-two">
-        <h2>How to get in touch?</h2>
+        <h3>How to get in touch?</h3>
         <p>This section only proves that you are approachable and ready to accept reviews and prior bookings.People love to be associated with
             businesses that are friendly and communicate well.Encourage them to get in touch with you.
         </p>
