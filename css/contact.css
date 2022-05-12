@@ -55,7 +55,7 @@ body {
 
 .header-two {
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin-top: 20px;
 }
 
@@ -64,6 +64,7 @@ body {
 }
 
 .header-two p {
+    width: 80%;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 250px;
