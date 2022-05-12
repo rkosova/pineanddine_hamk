@@ -106,19 +106,19 @@ input {
 
 #name {
     margin-bottom: 15px;
-    padding-bottom: -15px;
+    padding-bottom: -25px;
 }
 
 #email {
     margin-left: 5px;
     margin-bottom: 15px;
-    padding-bottom: -15px;
+    padding-bottom: -25px;
 }
 
 .secondrow {
     display: flex;
     margin-bottom: 15px;
-    padding-bottom: -15px;
+    padding-bottom: -25px;
 }
 
 .thirdrow {
