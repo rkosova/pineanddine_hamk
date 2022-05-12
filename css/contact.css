@@ -97,12 +97,11 @@ input {
 
 .half {
     width: 44.5%;
-    height: 50px;
+    height: 75px;
 }
 
 .firstrow {
     display: flex;
-    height: 75px;
 }
 
 #name {
@@ -117,7 +116,6 @@ input {
 .secondrow {
     display: flex;
     margin-bottom: 15px;
-    height: 75px;
 }
 
 .thirdrow {
