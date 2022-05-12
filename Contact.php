@@ -44,6 +44,7 @@
             <img class="fb" src="./images/fbwhite.png" height="35px" width="35px">
 			<img src="./images/igwhite.png" height="45px" width="45px">
             
+            <h4>Find our location below</h4>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127248.38967100704!2d24.878257254973178!3d60.11026054812121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bc796210691%3A0xcd4ebd843be2f763!2sHelsinki!5e0!3m2!1sen!2sfi!4v1652396046102!5m2!1sen!2sfi" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </div>
